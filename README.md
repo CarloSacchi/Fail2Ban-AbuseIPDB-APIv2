@@ -28,11 +28,6 @@ action_abuseipdb_webappattack  = abuseipdb[abuseipdb_category="21"]
 action_abuseipdb_sshabuse  = abuseipdb[abuseipdb_category="22"]
 action_abuseipdb_iot  = abuseipdb[abuseipdb_category="23"]
 
-
-
-%(action_abuseipdb)s
-
-
 ```
 
 This line of code must be added to each jail for which you want to activate AbuseIPDB reporting. Here’s an example of how you would configure the AbuseIPDB report action to run, in addition to your default ban actions, when the ssh brute force jail is triggered:
@@ -51,9 +46,6 @@ backend = %(sshd_backend)s
 maxretry = 3
 findtime = 604800 ; (1 week)
 enabled = true
-action = iptables-multiport
-         telegram
-
 
 ```
 
