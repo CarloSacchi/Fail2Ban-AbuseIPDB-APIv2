@@ -1,5 +1,5 @@
 # Fail2Ban-AbuseIPDB-APIv2
-Configure Fail2Ban to repurt to AbuseIPDB using APIv2 (APIv1 is deprecated)
+HOW TO Configure Fail2Ban to report to AbuseIPDB using APIv2 (APIv1 is deprecated)
 
 Original Article: https://0ut3r.space/2019/04/06/abuseipdb/
 
